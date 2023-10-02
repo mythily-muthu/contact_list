@@ -1,10 +1,14 @@
 
-import './App.css';
+import Header from "./components/Header";
+import AddContact from "./components/AddContact";
+import Contactlist from "./components/Contactlist";
 
 function App() {
   return (
-    <div className="App">
-      <h1>hi</h1>
+    <div className='w-full h-full flex'>
+      <Header />
+      <AddContact />
+      <Contactlist />
     </div>
   );
 }
